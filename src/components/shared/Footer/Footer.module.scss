@@ -1,0 +1,46 @@
+.footer {
+  background-image: url("@images/footer_bg.png"),
+    linear-gradient(248.8deg, #422836 27.52%, #271820 35.6%);
+  background-size: cover;
+  background-position: center;
+  padding: 56px 0;
+  color: #b3b3b3;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  padding-left: 74px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.content {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.link {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.links {
+  margin-bottom: 46px;
+}
+
+.copy {
+  font-size: 12px;
+  line-height: 14px;
+  color: #aaa3a7;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+}

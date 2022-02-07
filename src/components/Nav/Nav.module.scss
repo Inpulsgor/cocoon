@@ -1,0 +1,32 @@
+.navHeader {
+  display: flex;
+  align-items: center;
+}
+
+.navFooter {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 45px;
+}
+
+.titleClass {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 8px;
+  color: #fff;
+  height: 49px;
+}
+
+.listHeader {
+  display: flex;
+  text-transform: uppercase;
+  margin-right: 52px;
+}
+
+.listFooter {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,28 @@
+.headerLogo {
+  max-width: 196px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  max-width: 154px;
+  height: 49px;
+  margin-bottom: 12px;
+}
+
+.headerImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.footerImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.footerImage svg {
+  fill: #e5dee2;
+}

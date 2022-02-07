@@ -1,0 +1,50 @@
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.wrapper {
+  margin-right: 13px;
+}
+
+.wrapperHorizontal {
+  max-width: 110px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapperVertical {
+  max-width: 110px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.reviews {
+  // margin-left: 14px;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #422836;
+
+  opacity: 0.7;
+}
+
+.star {
+  display: inline-block;
+}
+
+.star:not(:last-child) {
+  margin-right: 6px;
+}

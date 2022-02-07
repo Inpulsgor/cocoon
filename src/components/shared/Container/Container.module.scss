@@ -1,0 +1,31 @@
+@import "@scss/global/mixins.scss";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+  max-width: 1440px;
+  //   max-width: 100%;
+
+  //   @include for-phone-xs {
+  //     max-width: 100%;
+  //   }
+
+  //   @include for-phone-sm {
+  //     max-width: 540px;
+  //   }
+
+  //   @include for-tablet-md {
+  //     max-width: 720px;
+  //   }
+
+  //   @include for-desktop-lg {
+  //     max-width: 960px;
+  //   }
+
+  //   @include for-desktop-xl {
+  //     max-width: 1400px;
+  //   }
+}

@@ -1,0 +1,87 @@
+.productSection {
+  padding-bottom: 74px;
+}
+.controlPanel {
+  max-width: 410px;
+  margin-left: 40px;
+
+  .productDetails {
+    margin-top: 22px;
+  }
+}
+
+.priceOffer {
+  margin-top: 16px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: bold;
+    color: #60acb7;
+
+    &.striked {
+      margin-right: 24px;
+      text-decoration: line-through;
+      font-weight: normal;
+      color: #c3b9be;
+    }
+  }
+}
+
+.addToBasketWrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+  opacity: 0.7;
+  color: #422836;
+  margin-bottom: 12px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 16px;
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 16px;
+}
+
+.type {
+  margin-right: 48px;
+  font-weight: 700;
+}
+
+.material {
+  margin-right: 55px;
+  color: #422836;
+}
+
+.color {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+  background-color: #5f5452;
+  border-radius: 50%;
+}
+
+.arrow {
+  display: inline-block;
+  width: 10px;
+  transform: rotate(-90deg);
+}
+
+.sliderContainer {
+  overflow: hidden;
+}

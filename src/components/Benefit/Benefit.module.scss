@@ -1,0 +1,45 @@
+.benefit {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 100%;
+  max-width: 700px;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 28px;
+  color: rgba(143, 129, 133, 0.85);
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin-right: 40px;
+}
+
+.conditions {
+  display: flex;
+  align-items: center;
+  padding-left: 68px;
+}

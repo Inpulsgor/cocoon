@@ -1,0 +1,26 @@
+.wrapper {
+  width: 320px;
+  height: 56px;
+
+  background: #60acb7;
+  border-radius: 14px;
+
+  p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fffbf7;
+  }
+
+  &.wrapperSmall {
+    width: 167px;
+    height: 48px;
+  }
+
+  &.wrapperSquare {
+    border-radius: 0;
+  }
+}

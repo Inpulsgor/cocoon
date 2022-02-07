@@ -1,0 +1,68 @@
+.reviews {
+  background: #faf5f0;
+  padding: 66px 0 77px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 82px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+  // padding: 0 82px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 41px;
+  color: #2c1722;
+}
+
+.vote {
+  display: flex;
+}
+
+.scoreStyle {
+  display: inline-block;
+  margin-right: 16px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #2c1722;
+}
+
+.showMore {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  background-color: transparent;
+  text-decoration-line: underline;
+  color: #60acb7;
+  margin-left: 370px;
+
+  span {
+    margin-right: 12px;
+  }
+
+  img {
+    width: 10px;
+    color: #60acb7;
+  }
+}
+
+.list {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}

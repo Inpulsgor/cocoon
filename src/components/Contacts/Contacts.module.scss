@@ -1,0 +1,19 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 46px;
+}
+
+.contact:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 17px;
+}
+
+.link {
+  font-size: 14px;
+  line-height: 22px;
+}

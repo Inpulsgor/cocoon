@@ -1,0 +1,17 @@
+.icon {
+  fill: #3d2532;
+}
+
+.link {
+  width: 30px;
+  height: 30px;
+  background-color: #e5dee2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.link:not(:last-child) {
+  margin-right: 12px;
+}
